@@ -21,6 +21,7 @@ namespace Vsite.CSharp
                 using (RadSDatotekom rd2 = new RadSDatotekom("mojDrugi.txt"))
                 {
                     //...
+
                 }
                 File.Delete("mojDrugi.txt");
 
@@ -31,7 +32,7 @@ namespace Vsite.CSharp
             {
                 Console.WriteLine(e.ToString());
             }
-
+            //GC.Collect();
             Console.WriteLine("GOTOVO!!!");
             Console.ReadLine();
         }
