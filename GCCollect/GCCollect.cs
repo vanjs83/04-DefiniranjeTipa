@@ -12,7 +12,7 @@ namespace Vsite.CSharp
             for (int i = 0; i < 1000; i++)
             // ako stavimo veliki broj objekata, GC će u jednom trenutku 
             // početi oslobađati memoriju za nove objekte
-            //for (int i = 0; i < 100000; i++)
+            // for (int i = 0; i < 100000; i++)
             {
                 KlasaSDestruktorom ksd = new KlasaSDestruktorom();
             }
