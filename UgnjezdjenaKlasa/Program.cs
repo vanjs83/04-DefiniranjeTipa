@@ -9,7 +9,7 @@ namespace UgnjezdjenaKlasa
     {
         static void Main(string[] args)
         {
-            Gnijezdo.UgnjezdjenaZasticena uk = new Gnijezdo.UgnjezdjenaZasticena();
+            //Gnijezdo.UgnjezdjenaZasticena uk = new Gnijezdo.UgnjezdjenaZasticena();
         }
     }
 
@@ -47,8 +47,8 @@ namespace UgnjezdjenaKlasa
             UgnjezdjenaZasticena ukz = new UgnjezdjenaZasticena();
             ukz.JavnaMetoda();
 
-            UgnjezdjenaPrivatna ukp = new UgnjezdjenaPrivatna();
-            ukp.JavnaMetoda();
+           // UgnjezdjenaPrivatna ukp = new UgnjezdjenaPrivatna();
+           // ukp.JavnaMetoda();
         }
     }
 
