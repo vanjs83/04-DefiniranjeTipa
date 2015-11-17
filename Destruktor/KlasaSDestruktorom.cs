@@ -5,8 +5,8 @@ namespace Vsite.CSharp
 {
     class KlasaSDestruktorom
     {
-        public KlasaSDestruktorom()
-        {
+        public KlasaSDestruktorom() 
+       {
             // ispis u konzolu
             Console.WriteLine("Konstruktor klase 'KlasaSDestruktorom'.");
             // ispis u Output prozor Visual Studija
