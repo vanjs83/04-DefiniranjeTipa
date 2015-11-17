@@ -21,7 +21,7 @@ namespace Vsite.CSharp
             {
                 Console.WriteLine(e.ToString());
             }
-
+           // GC.Collect();
             Console.WriteLine("GOTOVO!!!");
             Console.ReadLine();
         }
