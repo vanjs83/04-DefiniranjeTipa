@@ -58,10 +58,10 @@ Destruktor
 ----------
 Definirana je klasa s "destruktorom" u kojem se ispisuje poruka u izlazni 
 prozor (Output) Visual Studija.
-Iako je instanca klase u programu definirana u zasebnom bloku, pri izlasku iz 
-bloka se destruktor ne poziva odmah. To čini naknadno tek GC, što se vidi 
+Iako je instanca klase u programu definirana u zasebnom bloku, pri izlasku iz To čini naknadno tek GC, što se vidi 
 po poruci u izlaznom prozoru koja se ispisuje tek nakon što program završi.
 
+bloka se destruktor ne poziva odmah. 
 GCCollect
 ---------
 U programu generiramo mnoštvo objekata. Ako je broj objekata jako velik,
